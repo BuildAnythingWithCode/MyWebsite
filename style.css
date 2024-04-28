@@ -2,14 +2,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: 1px solid red
 }
 
 :root {
   --dark-color: #1E2629;
   --light-color: #FEFAEF;
+  --medium-color: #92A4AB;
 }
 
-.container {
+.container-home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('Assets/Image5.jpg');
+  background-size: cover;
+  background-position: center;
+  display:
+}
+
+.container-my-work {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('Assets/Image2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container-about-me {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('Assets/Image3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container-skills-and-experience {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('Assets/Image4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container-contact {
   width: 100%;
   min-height: 100vh;
   background-image: url('Assets/Image1.png');
@@ -73,14 +108,66 @@ a:hover {
   color: var(--dark-color);
 }
 
+.code-is-fun-flex-cont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+.code-is-fun-flex-cont h1, .code-is-fun-flex-cont h2 {
+  padding: 50px;
+}
+
 h2 {
-  font-family: "Montserrat";
-  font-weight: 400;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+}
+
+.intro-flex-cont {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+}
+
+.intro-flex-cont-1 i, .intro-flex-cont-1 h3, .intro-flex-cont-1 p {
+  padding: 10px;
+}
+
+.intro-flex-cont-2 i, .intro-flex-cont-2 h3, .intro-flex-cont-2 p {
+  padding: 10px;
+}
+
+.intro-flex-cont-3 i, .intro-flex-cont-3 h3, .intro-flex-cont-3 p {
+  padding: 10px;
+}
+
+.intro-flex-cont-1 h3, .intro-flex-cont-2 h3, .intro-flex-cont-3 h3 {
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-weight: 200;
+  color: var(--dark-color);
+}
+
+.intro-flex-cont-1 p, .intro-flex-cont-2 p, .intro-flex-cont-3 p {
+  font-family: "Josefin Sans";
+  font-size: 18px;
+  font-weight: 300;
+  color: var(--dark-color);
+}
+
+i {
+  color: var(--medium-color);
 }
 
 @media (max-width: 768px) {
   .container {
     background-size: cover;
+  }
+  .intro-flex-cont {
+    display: flex;
+    flex-direction: column;
   }
 }
 
