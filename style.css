@@ -20,7 +20,7 @@
 .logo {
   width: 100px;
   border-radius: 50%;
-  border: 2px solid #FEFAEF;
+  border: 2px solid var(--light-color);
 }
 
 nav {
@@ -39,7 +39,43 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0px 30px;
+  padding: 0px 10px;
+  font-family: "Bebas Neue";
+}
+
+nav ul li a {
+  color: var(--light-color);
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.greeting-text {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Josefin Sans";
+  padding: 10px 20px;
+  color: var(--light-color);
+  background-color: var(--dark-color);
+  border-radius: 5px;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  transition: color 200ms linear;
+}
+
+a:hover {
+  color: var(--dark-color);
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
 }
 
 @media (max-width: 768px) {
