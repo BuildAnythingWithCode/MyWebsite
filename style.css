@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 :root {
@@ -17,3 +16,30 @@
   background-size: cover;
   background-position: center;
 }
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid #FEFAEF;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .container {
+    background-size: cover;
+  }
+}
+
