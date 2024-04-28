@@ -17,7 +17,6 @@
   background-image: url('Assets/Image5.jpg');
   background-size: cover;
   background-position: center;
-  display:
 }
 
 .container-my-work {
@@ -141,6 +140,7 @@ a:hover {
   font-family: "Josefin Sans";
   font-size: 30px;
   font-weight: 400;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .code-is-fun-flex-cont h1, .code-is-fun-flex-cont h2 {
