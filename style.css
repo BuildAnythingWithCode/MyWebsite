@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px solid red
+  border: 0px solid red
 }
 
 :root {
@@ -84,18 +84,25 @@ nav ul li a {
   font-size: 22px;
 }
 
-.greeting-text {
+#dynamicWord {
+  cursor: pointer;
+  color: rgb(179, 51, 0);
+}
+
+.greeting-text h3 {
   padding: 50px 100px;
   text-align: center;
+  font-family: "Josefin Sans";
+  font-weight: 400;
 }
 
 .btn {
   font-family: "Josefin Sans";
-  padding: 10px 20px;
+  padding: 15px 25px;
   color: var(--light-color);
   background-color: var(--dark-color);
   border-radius: 5px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-decoration: none;
 }
 
@@ -114,6 +121,26 @@ a:hover {
   text-align: center;
   align-items: center;
   padding: 100px 20px;
+}
+
+.code-is-fun-flex-cont h1 {
+  font-family: "Major Mono Display";
+  font-size: 50px;
+}
+
+#dynamicWord {
+  transition: color 200ms linear;
+}
+
+
+#dynamicWord:hover {
+  color: rgb(133, 38, 0);
+}
+
+.code-is-fun-flex-cont h2 {
+  font-family: "Josefin Sans";
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .code-is-fun-flex-cont h1, .code-is-fun-flex-cont h2 {
