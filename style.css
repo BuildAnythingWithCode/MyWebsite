@@ -192,6 +192,7 @@ i {
   .container {
     background-size: cover;
   }
+
   .intro-flex-cont {
     display: flex;
     flex-direction: column;
